@@ -1,8 +1,9 @@
-import { BiLogoPostgresql } from "react-icons/bi";
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 import { motion } from "framer-motion";
 
 
@@ -38,28 +39,28 @@ const Technologies = () => {
                 initial="initial"
                 animate="animate"
                 className=" rounded-2xl border-4 border-neutral-800 p-4">
-                <RiReactjsLine className=" text-7xl text-cyan-400" />
+                <RiReactjsLine className=" text-5xl text-cyan-400" />
             </motion.div>
             <motion.div
                 variants={iconVariants(3)}
                 initial="initial"
                 animate="animate"
                 className=" rounded-2xl border-4 border-neutral-800 p-4">
-                <TbBrandNextjs className=" text-7xl" />
+                <TbBrandNextjs className=" text-5xl" />
             </motion.div>
             <motion.div
                 variants={iconVariants(5)}
                 initial="initial"
                 animate="animate"
                 className=" rounded-2xl border-4 border-neutral-800 p-4">
-                <SiMongodb className=" text-7xl text-green-500" />
+                <SiMongodb className=" text-5xl text-green-500" />
             </motion.div>
             <motion.div
                 variants={iconVariants(2)}
                 initial="initial"
                 animate="animate"
                 className=" rounded-2xl border-4 border-neutral-800 p-4">
-                <FaNodeJs className=" text-7xl text-red-700" />
+                <FaNodeJs className=" text-5xl text-red-700" />
             </motion.div>
             <div>
                 <motion.div
@@ -67,9 +68,18 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className=" rounded-2xl border-4 border-neutral-800 p-4">
-                    <BiLogoPostgresql className=" text-7xl text-sky-700" />
+                    <SiTypescript className=" text-5xl text-sky-700" />
                 </motion.div>
             </div>
+            
+                <motion.div
+                    variants={iconVariants(3)}
+                    initial="initial"
+                    animate="animate"
+                    className=" rounded-2xl border-4 border-neutral-800 p-4">
+                    <RiTailwindCssFill className=" text-5xl " />
+                </motion.div>
+            
         </motion.div>
     </div>;
 };

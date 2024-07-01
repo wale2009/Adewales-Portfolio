@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="mb-20 flex items-center justify-between py-6">
             <div className="flex flex-shrink-0 items-center">
                 {/* <img src={ logo } alt="logo" /> */}
-                <h1 className=" mx-9 w-10 text-2xl">
+                <h1 className=" mx-9 w-10 text-2xl cursor-pointer">
                     WA
                 </h1>
             </div>
